@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baopu Lab | 抱朴实验室</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Inter:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">抱朴实验室</span>
+                <span class="logo-sub">Baopu Lab</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" data-en="About" data-zh="关于">About</a></li>
+                <li><a href="#research" data-en="Research" data-zh="研究">Research</a></li>
+            </ul>
+            <button class="lang-toggle" onclick="toggleLanguage()">
+                <span id="lang-text">中文</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-content-full">
+
+                    <p class="intro-text"
+                        data-en="Baopu Lab is a private research institute established by Dr. Bo Gao. The name 'Baopu' (抱朴) originates from the idiom '抱朴守真' , signifying the embrace of simplicity and adherence to fundamental truths."
+                        data-zh="抱朴实验室是由高博士创立的私人研究机构。'抱朴'一词源于成语'抱朴守真'，寓意拥抱质朴、坚守真理。">
+                        Baopu Lab is a private research institute established by Dr. Bo Gao. The name 'Baopu' (抱朴)
+                        originates from the idiom '抱朴守真', signifying the embrace of simplicity and
+                        adherence to fundamental truths.
+                    </p>
+                    <p data-en="Dr. Bo Gao envisions a research environment stripped of elaborate embellishments, focusing solely on the world's most primitive and fundamental principles. In an era of explosive AI growth where researchers chase trends and quick publications, Dr. Bo Gao chooses to slow down and delve into questions that truly matter."
+                        data-zh="高博士主张摒弃繁杂修饰，专注于探索世界最原始、最底层的原理。在AI爆发式增长、研究者追逐热点和快速发表的时代，高博士选择沉下心来，深入研究那些真正重要的问题。">
+                        Dr. Bo Gao envisions a research environment stripped of elaborate embellishments, focusing
+                        solely
+                        on the world's most primitive and fundamental principles. In an era of explosive AI growth where
+                        researchers chase trends and quick publications, Dr. Bo Gao chooses to slow down and delve into
+                        questions that truly matter.
+                    </p>
+                    <p data-en="Currently, Baopu Lab's primary research lies in Artificial Intelligence, not in building larger models or chasing benchmarks, but in understanding the fundamental mechanisms underlying intelligence itself."
+                        data-zh="目前，抱朴实验室的主要研究重心是人工智能，不是为了构建更大的模型或追逐基准测试，而是为了理解智能本身所依赖的根本机制。">
+                        Currently, Baopu Lab's primary research lies in Artificial Intelligence, not in building larger
+                        models or chasing benchmarks, but in understanding the fundamental mechanisms underlying
+                        intelligence itself.
+                    </p>
+                    <p class="contact-text"
+                        data-en="Collaborations are welcome if Dr. Bo Gao is interested in your proposal. Email: <a href='mailto:bmgao@hotmail.com'>bmgao@hotmail.com</a>"
+                        data-zh="欢迎合作，如果高博士对你的提议感兴趣。邮箱：<a href='mailto:bmgao@hotmail.com'>bmgao@hotmail.com</a>">
+                        Collaborations are welcome if Dr. Gao is interested in your proposal. Email: <a
+                            href="mailto:bmgao@hotmail.com">bmgao@hotmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section research-section">
+            <div class="container">
+                <span class="section-label" data-en="The Genesis" data-zh="开山之作">The Genesis</span>
+                <h2 class="section-title paper-title">
+                    <span
+                        data-en="Softplus Attention with Re-weighting Boosts Length Extrapolation in Large Language Models"
+                        data-zh="Softplus Attention with Re-weighting Boosts Length Extrapolation in Large Language Models">
+                        Softplus Attention with Re-weighting Boosts Length Extrapolation in Large Language Models
+                    </span>
+                </h2>
+                <div style="text-align: center;">
+                    <a href="https://arxiv.org/abs/2501.13428" target="_blank" class="paper-link-btn">
+                        arXiv
+                    </a>
+                </div>
+
+                <!-- Feature Card: Expert Commentary -->
+                <div class="feature-card">
+                    <div class="feature-content">
+
+                        <!-- Expert Opening -->
+                        <p class="feature-quote"
+                            data-en="This work finally unveils the mystery of Softmax Attention from a computational neuroscience perspective. For years, the AI community has treated Softmax Attention as a black box. Everyone knows it works but no one knows why. This paper reveals that it is essentially a primitive form of neural lateral inhibition. The Softmax attention is a variant of Heeger's Normalisation Model, a canonical computation observed in biological visual cortex that establishes the necessary global competition for stable signal processing."
+                            data-zh="这项工作终于从计算神经科学的角度揭开了Softmax注意力的神秘面纱。多年来，AI界将Softmax注意力视为黑箱。人人都知道它有用，却无人知晓其原理。这篇论文揭示了它本质上是一种初级的神经侧抑制形式。Softmax注意力是Heeger归一化模型的变式，这是一种在生物视觉皮层中观察到的经典计算，它为稳定的信号处理建立了必要的全局竞争机制。">
+                            This work finally unveils the
+                            mystery of Softmax Attention from a computational neuroscience perspective. For years, the
+                            AI community has treated Softmax Attention as a black box. Everyone knows it works but no
+                            one knows
+                            why. This paper reveals that it is essentially a primitive form of neural lateral
+                            inhibition.
+                            The Softmax attention is a variant of Heeger's Normalisation Model, a canonical computation
+                            observed in biological visual cortex that establishes the necessary global competition
+                            for stable signal processing.
+                        </p>
+
+                        <!-- Expert Commentary: Integration of Three Models -->
+                        <!-- Expert Commentary: Integration of Three Models -->
+                        <!-- Expert Commentary: Integration of Three Models -->
+                        <p class="feature-quote"
+                            data-en="Based on this computational neuroscience perspective, Dr. Bo Gao introduces the next-generation self-attention model, Softplus Attention with Re-weighting (LSSAR), as an integration of three canonical computational neuroscience models: Divisive Normalisation, Subtractive Inhibition, and Winner-Take-All (WTA) dynamics. First, it uses Divisive Normalisation to enforce global competition. Then, it applies Subtractive Inhibition for coarse noise filtering. Finally, it integrates WTA dynamics for fine-grained selection. This combination results in a coarse-to-fine causal filter that mirrors the brain's own perceptual inference mechanism, fundamentally resolving the long-standing challenges of attention smoothing, attention sinks, and length extrapolation in large scale models."
+                            data-zh="基于这一计算神经科学视角，高博士提出了下一代自注意力模型，带重加权的Softplus注意力（LSSAR）。它是三种经典计算神经科学模型的结合：除法归一化、减法抑制和胜者为王机制。首先，利用除法归一化建立全局竞争。然后，应用减法抑制进行粗粒度噪声消除。最后，引入胜者为王机制进行细粒度选择。这种结合实现了一个更加符合大脑工作原理的从粗到细的因果过滤器，从根本上解决了注意力平滑化、注意力汇聚以及大模型外推的难题。">
+                            Based on this computational neuroscience perspective, Dr. Bo Gao introduces the
+                            next-generation self-attention model, Softplus Attention with Re-weighting (LSSAR), as an
+                            integration of three canonical computational neuroscience models: Divisive
+                            Normalisation, Subtractive
+                            Inhibition, and Winner-Take-All (WTA) dynamics. First, it uses Divisive Normalisation to
+                            enforce global competition. Then, it applies Subtractive Inhibition for coarse noise
+                            filtering. Finally, it integrates WTA dynamics for fine-grained selection. This combination
+                            results in a coarse-to-fine causal filter that mirrors the brain's own
+                            perceptual inference mechanism, fundamentally resolving the long-standing challenges of
+                            attention smoothing, attention sinks, and length extrapolation in large scale models.
+                        </p>
+
+                        <!-- Expert Commentary: Results -->
+                        <p class="feature-quote"
+                            data-en="The results speak for themselves. Beyond mere accuracy improvements in downstream tasks, LSSAR unlocks superior extrapolation capabilities absent in Softmax. It maintains nearly constant validation loss at 16× the training length. In 'needle-in-a-haystack' tests, where standard Softmax collapses to 0% accuracy, LSSAR keeps finding the needle. But the true breakthrough is that LSSAR demonstrates extraordinary reasoning capabilities."
+                            data-zh="结果不言自明。LSSAR不仅提升了下游任务的精度，更关键的是解锁了Softmax所不具备的卓越外推能力。它在16倍训练长度下保持验证损失恒定。在“大海捞针”测试中，当标准Softmax的准确率崩溃到0%时，LSSAR依然能找到那根针。但真正的突破在于LSSAR展现出超凡的推理能力。">
+                            The results speak for themselves. Beyond mere accuracy improvements in downstream
+                            tasks, LSSAR unlocks superior extrapolation capabilities absent in Softmax. It maintains
+                            nearly constant validation loss at 16× the training length. In 'needle-in-a-haystack' tests,
+                            where standard Softmax collapses to 0% accuracy, LSSAR keeps finding the needle. But the
+                            true breakthrough is that LSSAR demonstrates extraordinary reasoning capabilities.
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <!-- World Model Demo -->
+                <div class="world-model-section">
+                    <div class="world-model-header">
+                        <span class="section-label" data-en="Compression is Intelligence" data-zh="压缩即智能">Compression
+                            is Intelligence</span>
+                        <h3 data-en="LSSAR Discovers Newton's Laws" data-zh="LSSAR 发现牛顿定律">LSSAR Discovers Newton's Laws
+                        </h3>
+
+                    </div>
+
+                    <div class="demo-container">
+                        <div class="demo-card">
+                            <img src="assets/forces_earth.gif" alt="LSSAR fitting Newton's Laws - Forces on Earth"
+                                class="demo-gif">
+                            <div class="demo-overlay">
+                                <span
+                                    data-en="Force predictions for Earth's orbit. Left: true forces. Middle: GPT (LSSAR) correctly captures radial gravitational structure. Right: GPT (Softmax) is incoherent."
+                                    data-zh="地球轨道的力预测。左：真实力。中：GPT（LSSAR）正确捕捉径向引力结构。右：GPT（Softmax）混乱无序。">Force
+                                    predictions for Earth's orbit. Left: true forces. Middle: GPT (LSSAR) correctly
+                                    captures radial gravitational structure. Right: GPT (Softmax) is incoherent.</span>
+                            </div>
+                            <h4 data-en="What You're Seeing" data-zh="您所看到的">What You're Seeing</h4>
+                            <p data-en="Here's a remarkable experiment: a tiny 109M parameter GPT-2 model was trained on 10 million simulated planetary trajectories. The only difference between the two models shown is the attention mechanism, LSSAR versus standard Softmax. After training, symbolic regression was used to extract the mathematical law that best describes the model's force predictions. The results are striking: LSSAR successfully recovers Newton's inverse-square law (F = 27.02 × m/r²), correctly identifying how gravitational force depends on mass and distance. The fitted constant is remarkably close to the theoretical value. Meanwhile, standard Softmax fails entirely, producing physically meaningless equations."
+                                data-zh="这是一个引人注目的实验：一个仅有1.09亿参数的GPT-2模型在1000万条模拟行星轨道上进行训练。图中两个模型唯一的区别就是注意力机制，LSSAR与标准Softmax。训练结束后，使用符号回归提取最能描述模型力预测的数学定律。结果令人震惊：LSSAR成功恢复了牛顿平方反比定律（F = 27.02 × m/r²），正确识别了引力如何依赖于质量和距离。拟合常数与理论值非常接近。而标准Softmax完全失败，产生了物理上毫无意义的方程。">
+                                Here's a remarkable experiment: a tiny 109M parameter GPT-2 model was trained on 10
+                                million simulated planetary trajectories. The only difference between the two models
+                                shown is the attention mechanism, LSSAR versus standard Softmax. After training,
+                                symbolic regression was used to extract the mathematical law that best describes the
+                                model's force predictions. The results are striking: LSSAR successfully recovers
+                                Newton's inverse-square law (F = 27.02 × m/r²), correctly identifying how gravitational
+                                force depends on mass and distance. The fitted constant is remarkably close to the
+                                theoretical value. Meanwhile, standard Softmax fails entirely, producing physically
+                                meaningless equations.
+                            </p>
+                            <p data-en="But here's where it gets truly interesting. State-of-the-art trillion-parameter models (o3, Claude 4 Sonnet, and Gemini 2.5 Pro) were also tested on the same task. Despite their vast knowledge, all three failed to discover Newton's law, producing trivial expressions like F ∝ m₁ or nonsensical formulas. A 109M model with the right attention mechanism succeeds where trillion-parameter giants fail. This isn't about scale, it's about having the right inductive biases for causal discovery."
+                                data-zh="但真正有趣的在这里。最先进的万亿参数模型（o3, Claude 4 Sonnet 和 Gemini 2.5 Pro）也在相同任务上进行了测试。尽管它们拥有海量知识，三个模型都未能发现牛顿定律，只产生了诸如 F ∝ m₁ 这样的平凡表达式或毫无意义的公式。一个拥有正确注意力机制的1.09亿参数模型成功了，而万亿参数的巨型模型却失败了。这与规模无关，关键在于拥有正确的因果发现归纳偏置。">
+                                But here's where it gets truly interesting. State-of-the-art trillion-parameter models
+                                (o3, Claude 4 Sonnet, and Gemini 2.5 Pro) were also tested on the same task. Despite
+                                their vast knowledge, all three failed to discover Newton's law, producing trivial
+                                expressions like F ∝ m₁ or nonsensical formulas. A 109M model with the right attention
+                                mechanism succeeds where trillion-parameter giants fail. This isn't about scale, it's
+                                about having the right inductive biases for causal discovery.
+                            </p>
+                        </div>
+                        <div class="implication-box">
+                            <h5 data-en="Why This Matters" data-zh="为何重要">Why This Matters</h5>
+                            <p data-en="Perhaps most striking is the paper's implicit challenge to the 'scaling hypothesis.' While mainstream AI research remains fixated on ever-larger models, this work offers a compelling counter-narrative: compression is intelligence. LSSAR's sparse attention functions as a coarse-to-fine causal filter, systematically eliminating noise while distilling the sparse causal structures that govern the data."
+                                data-zh="也许最引人注目的，是这篇论文对'规模假说'的隐性挑战。当主流AI研究仍执着于不断扩大模型规模时，这项工作提供了一个有力的反叙事：压缩即智能。LSSAR的稀疏注意力机制作为一种从粗到精的因果过滤器，系统性地消除噪声，同时提炼出支配数据的稀疏因果结构。">
+                                Perhaps most striking is the paper's implicit challenge to the 'scaling hypothesis.'
+                                While mainstream AI research remains fixated on ever-larger models, this work offers
+                                a compelling counter-narrative: compression is intelligence. LSSAR's sparse attention
+                                functions as a coarse-to-fine causal filter, systematically eliminating noise while
+                                distilling the sparse causal structures that govern the data.
+                            </p>
+                            <br>
+                            <p data-en="The rediscovery of Newton's gravitational law from raw orbital trajectories stands as the ultimate vindication: physical laws are, at their core, sparse causal structures waiting to be unveiled. A model capable of compressing observations into such elegant mathematical forms has achieved something approaching genuine understanding. Dr. Bo Gao contends that this very capacity, to extract sparse, invariant causal mechanisms from noisy observations, represents the fundamental missing piece in modern AI. This breakthrough marks a decisive stride towards constructing authentic World Models and, ultimately, realising Artificial General Intelligence."
+                                data-zh="从原始轨道数据中重新发现牛顿引力定律，是对这一理念的终极验证：物理定律的本质，正是等待被揭示的稀疏因果结构。一个能将观测数据压缩成如此优雅数学形式的模型，已经触及了某种近乎真正理解的境界。高博士认为，这种从嘈杂观测中提取稀疏、不变因果机制的能力，正是现代人工智能所缺失的根本拼图。这一突破标志着向构建真正的世界模型、乃至最终实现通用人工智能迈出了决定性的一步。">
+                                The rediscovery of Newton's gravitational law from raw orbital trajectories stands as
+                                the ultimate vindication: physical laws are, at their core, sparse causal structures
+                                waiting to be unveiled. A model capable of compressing observations into such elegant
+                                mathematical forms has achieved something approaching genuine understanding. Dr. Bo Gao
+                                contends that this very capacity, to extract sparse, invariant causal mechanisms from
+                                noisy observations, represents the fundamental missing piece in modern AI. This
+                                breakthrough marks a decisive stride towards constructing authentic World Models and,
+                                ultimately, realising Artificial General Intelligence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">抱朴实验室</span>
+                    <span class="footer-logo-en">Baopu Lab</span>
+                </div>
+                <p class="footer-text">
+                    <span data-en="© 2026 Baopu Lab. Baopu Shouzhen." data-zh="© 2026 抱朴实验室。抱朴守真。">©
+                        2026 Baopu Lab.
+                        抱朴守真。</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
