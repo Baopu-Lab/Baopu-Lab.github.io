@@ -546,6 +546,7 @@ h4 {
 
     .feature-card {
         padding: 2.5rem 1.5rem;
+        max-width: 100%;
     }
 
     .section-title {
@@ -568,6 +569,39 @@ h4 {
         font-size: 3rem;
         top: 0.5rem;
         left: 1rem;
+    }
+
+    /* Mobile width consistency fixes */
+    .demo-card,
+    .demo-explanation,
+    .demo-visual,
+    .implication-box {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+    .demo-card h4,
+    .demo-explanation h4 {
+        margin-top: 1.5rem;
+    }
+
+    .world-model-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .world-model-description {
+        font-size: 1rem;
+    }
+
+    .demo-card p,
+    .demo-explanation p,
+    .implication-box p {
+        font-size: 1rem;
+    }
+
+    .paper-link-btn {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.75rem;
     }
 }
 
